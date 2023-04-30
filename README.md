@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>CodeClause Internship Projects</title>
+<!-- 	<title>CodeClause Internship Projects</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
@@ -42,11 +42,11 @@
 			text-align: center;
 			margin-top: 50px;
 		}
-	</style>
+	</style> -->
 </head>
 <body>
 	<header>
-		<img src="https://i.imgur.com/YwKj3q4.png" alt="CodeClause Logo">
+		<img src ="https://s3-eu-west-1.amazonaws.com/tpd/logos/6393859172dfa05d5a77adb8/0x0.png" alt="CodeClause Logo">
 		<h1>CodeClause Internship Projects</h1>
 		<p>My completed projects during my internship with CodeClause community.</p>
 	</header>
@@ -54,7 +54,7 @@
 		<section>
 			<h2>Home Page</h2>
 			<p>The home page of my project is a beautiful parallax page that showcases my completed projects during the internship. It has a clean and modern design with a prominent banner that introduces the page's purpose. There are three project cards on the home page, and each card has a thumbnail image, a brief description of the project, and a link to view it. I used HTML, CSS, and JavaScript to create the parallax effect, and I added smooth scrolling to make it user-friendly. The home page sets the tone for the rest of the projects and provides an excellent user experience.</p>
-			<a href="https://viswanath-621.github.io/CodeClause-Projects/"><img src="https://i.imgur.com/d8lHhOL.png" alt="Home Page Screenshot"></a>
+			<a href="https://viswanath-621.github.io/CodeClause-Projects/"><img src="https://ibb.co/rM73cGg" alt="Home Page Screenshot"></a>
 			<a href="https://viswanath-621.github.io/CodeClause-Projects/">View Home Page</a>
 		</section>
 		<section>
