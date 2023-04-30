@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Unit Converter Project</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<!-- <link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		/> -->
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+			integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<header>
+			<a href="#" class="viswa-logo">CodeClause</a>
+
+			<ul class="viswa-navlists">
+				<li>
+					<a href="C:\Users\Viswanath Bodapati\Desktop\CodeClause\index.html"
+						>HOME</a
+					>
+				</li>
+				<li>
+					<a href="https://app.internship.codeclause.com/intern/dashboard"
+						>DASHBOARD</a
+					>
+				</li>
+				<li><a href="https://github.com/Viswanath-621">PROJECTS</a></li>
+				<li><a href="#">NOTIFICATIONS </a></li>
+				<li><a href="#">ANALYTICS</a></li>
+				<li>
+					<a href="https://viswanath-621.github.io/About-Me/">CONTACT ME</a>
+				</li>
+			</ul>
+
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</header>
+
+		<section class="viswa-hero-section">
+			<div class="hero-text">
+				<h5>#1 Project</h5>
+				<h4>Viswanath Bodapati</h4>
+				<h1>Unit Converter</h1>
+				<p>
+					Make conversions a breeze with our easy-to-use unit conversion app.
+					JOIN Millions of users worldwide and streamline your calculations with
+					our user-friendly unit conversion application - the perfect tool for
+					simplifying everyday calculations!
+				</p>
+
+				<a href="#main-da">Explore Now</a>
+				<a href="#" class="ctaa"><i class="ri-play-fill"></i> Watch Premiere</a>
+			</div>
+
+			<div class="hero-landing-img">
+				<img
+					src="https://play-lh.googleusercontent.com/jLwMMCQ_nU2Mmx-0M8h6FU-F9tq36uG2Z4EwbUZ7rfVQMcmqi2lCpGeozHHG_hyj8RhI"
+					alt="viswa-landing-photo"
+				/>
+				<!-- <img
+					src="https://data.apkshub.com/22/com.androidapps.unitconverter/2.2.33/icon.png"
+					alt="viswa-landing-photo"
+				/> -->
+			</div>
+		</section>
+
+		<div class="icons">
+			<a href="https://www.linkedin.com/in/viswanath-bodapati-56944714a/"
+				><i class="ri-linkedin-box-fill"></i
+			></a>
+			<a href="https://www.youtube.com/watch?v=lR0lHgwAm_k"
+				><i class="ri-youtube-line"></i
+			></a>
+			<a href="https://www.instagram.com/viswanath.bodapati/"
+				><i class="ri-instagram-line"></i
+			></a>
+			<a href="https://medium.com/@viswanathbodapati.career"
+				><i class="ri-medium-fill"></i
+			></a>
+			<a href="https://codepen.io/Viswanath-621"
+				><i class="ri-codepen-line"></i
+			></a>
+			<a href="https://github.com/Viswanath-621"
+				><i class="ri-github-line"></i
+			></a>
+		</div>
+
+		<div class="scroll-down">
+			<a href="#main-da"><i class="ri-arrow-down-s-fill"></i></a>
+		</div>
+
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="tool-container" id="main-da">
+						<h1>Length Converter</h1>
+						<!-- <a href="#"><i class="ri-arrow-down-s-fill"></i></a> -->
+
+						<div id="lengthInput" class="tool-container-feild-group">
+							<div class="tool-container-feild">
+								<div class="tool-input-group">
+									<div class="tool-input-label">
+										<label for="fromUnit">From:</label>
+									</div>
+									<select class="tool-select-group" id="fromUnit">
+										<option selected value="Millimeter">Millimeter</option>
+										<option value="Centimeter">Centimeter</option>
+										<option value="Decimeter">Decimeter</option>
+										<option value="Meter">Meter</option>
+										<option value="Kilometer">Kilometer</option>
+										<option value="Foot">Foot</option>
+										<option value="Inch">Inch</option>
+										<option value="Mile">Mile</option>
+										<option value="Yard">Yard</option>
+									</select>
+									<input
+										placeholder="Input Length"
+										id="fromLength"
+										type="number"
+										name="from-length"
+										min="0"
+										class="tool-input-feild"
+									/>
+								</div>
+
+								<div class="tool-input-group">
+									<div class="tool-input-label">
+										<label for="toUnit">To:</label>
+									</div>
+									<select class="tool-select-group" id="toUnit">
+										<option value="Millimeter">Millimeter</option>
+										<option selected value="Centimeter">Centimeter</option>
+										<option value="Decimeter">Decimeter</option>
+										<option value="Meter">Meter</option>
+										<option value="Kilometer">Kilometer</option>
+										<option value="Foot">Foot</option>
+										<option value="Inch">Inch</option>
+										<option value="Mile">Mile</option>
+										<option value="Yard">Yard</option>
+									</select>
+									<input
+										readonly
+										placeholder="Output"
+										id="outputLength"
+										type="number"
+										name="to-temperature"
+										min="0"
+										class="tool-input-feild readonly-background"
+									/>
+								</div>
+
+								<div class="tool-input-group">
+									<button
+										onclick="RestLengthConverter()"
+										class="tool-btn tool-btn-reset"
+									>
+										Reset
+									</button>
+									<button
+										onclick="CalculateLength()"
+										class="tool-btn tool-btn-calculate"
+									>
+										Calculate
+									</button>
+								</div>
+							</div>
+
+							<div class="tool-container-feild">
+								<div
+									id="OutputInfo"
+									class="tool-output-information tool-output-box"
+								>
+									<h2>Basic Information</h2>
+
+									<ul>
+										<li>10 Millimeter (mm) = 1 Centimeter (cm)</li>
+										<li>10 Centimeters (cm) = 1 Decimeter (dm)</li>
+										<li>10 Decimeters (dm) = 1 Meter (m)</li>
+										<li>10 Meters (m) = 1 Decameter (dam)</li>
+										<li>10 Decameters (dam) = 1 Hectameter (hm)</li>
+										<li>10 Hectameters (hm) = 1 Kilometer (km)</li>
+										<!-- <li>1 Kilm) = 1 Hectameter (hm) </li> -->
+										<!-- <li>10 Decameters (dam) = 1 Hectameter (hm) </li> -->
+
+										<li>304.8 Millimeters (mm) = 1 Foot (ft)</li>
+										<li>25.4 Millimeters (mm) = 1 Inch (in)</li>
+										<li>1609344 Millimeters (mm) = 1 Mile (mi)</li>
+										<li>914.4 Millimeters (mm) = 1 Yard (yd)</li>
+									</ul>
+								</div>
+
+								<div
+									id="OutputResult"
+									class="tool-output-results tool-output-box"
+								>
+									<h2>Result</h2>
+									<p id="lengthResult"></p>
+									<p><b>Formula:</b> <span id="lengthFormula"></span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="tool-container" id="main-da">
+						<h1>Temperature Converter</h1>
+						<!-- <div id="lengthInput" class="tool-container-feild-group"> -->
+
+						<div id="lengthInput" class="tool-container-feild-group">
+							<div class="tool-container-feild">
+								<div id="celsius">
+									<input type="number" name="" placeholder="Celsius" />
+									<span class="icon">°C</span>
+								</div>
+
+								<div id="fahrenheit">
+									<input type="number" name="" placeholder="Fahrenheit" />
+									<span class="icon">°F </span>
+								</div>
+
+								<div id="kelvin">
+									<input type="number" name="" placeholder="Kelvin" />
+									<span class="icon">°K </span>
+								</div>
+
+								<div class="button">
+									<button>Clear All</button>
+								</div>
+							</div>
+
+							<div class="tool-container-feild">
+								<div
+									id="OutputInfo"
+									class="tool-output-information tool-output-box"
+								>
+									<h2>Conversion Formulae</h2>
+
+									<ul>
+										<li>
+											Fahrenheit to Celsius = x0 Fahrenheit 5/9 (x -320) Celsius
+										</li>
+										<li>
+											Celsius to Fahrenheit = Y0 Celsius -9/5 (y+320) Fahrenheit
+										</li>
+										<li>
+											Kelvin: <br />
+											Degree K = Celsius + 273.15<br />
+											Degree K = 5/9 (0 Fahrenheit + 459.67)
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="tool-container" id="main-da">
+						<h1>Currency Converter</h1>
+						<!-- <div id="lengthInput" class="tool-container-feild-group"> -->
+						<div class="tool-container-feild">
+							<div class="wrapper">
+								<form action="#">
+									<div class="amount">
+										<p>Enter Amount</p>
+										<input type="text" value="1" />
+									</div>
+									<div class="drop-list">
+										<div class="from">
+											<p>From</p>
+											<div class="select-box">
+												<img
+													src="https://flagcdn.com/48x36/us.png"
+													alt="flag"
+												/>
+												<select>
+													<!-- Options tag are inserted from JavaScript -->
+												</select>
+											</div>
+										</div>
+										<div class="icon">
+											<i class="fas fa-exchange-alt"></i>
+										</div>
+										<div class="to">
+											<p>To</p>
+											<div class="select-box">
+												<img
+													src="https://flagcdn.com/48x36/np.png"
+													alt="flag"
+												/>
+												<select></select>
+											</div>
+										</div>
+									</div>
+									<div class="exchange-rate">Getting exchange rate...</div>
+									<button>Get Exchange Rate</button>
+								</form>
+							</div>
+							<!-- </div> -->
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="tool-container" id="main-da">
+						<h1>Weight Converter</h1>
+						<!-- <div id="lengthInput" class="tool-container-feild-group"> -->
+
+						<div id="weightInput" class="tool-container-feild-group">
+							<div class="tool-container-feild">
+								<div class="tool-input-group">
+									<div class="tool-input-label">
+										<label for="fromUnit">From:</label>
+									</div>
+									<select class="tool-select-group" id="fromUnit">
+										<option selected value="Milligram">Milligrams</option>
+										<option value="Centigram">Centigrams</option>
+										<option value="Decigram">Decigrams</option>
+										<option value="Gram">Grams</option>
+										<option value="Decagram">Decagrams</option>
+										<option value="Hectogram">Hectograms</option>
+										<option value="Kilogram">Kilograms</option>
+										<option value="Quintal">Quintals</option>
+										<!-- <option value="Yard">Yard</option> -->
+									</select>
+									<input
+										placeholder="Input Weight"
+										id="fromWeight"
+										type="number"
+										name="from-Weight"
+										min="0"
+										class="tool-input-feild"
+									/>
+								</div>
+
+								<div class="tool-input-group">
+									<div class="tool-input-label">
+										<label for="toUnit">To:</label>
+									</div>
+									<select class="tool-select-group" id="toUnit">
+										<option selected value="Milligram">Milligrams</option>
+										<option value="Centigram">Centigrams</option>
+										<option value="Decigram">Decigrams</option>
+										<option value="Gram">Grams</option>
+										<option value="Decagram">Decagrams</option>
+										<option value="Hectogram">Hectograms</option>
+										<option value="Kilogram">Kilograms</option>
+										<option value="Quintal">Quintals</option>
+									</select>
+									<input
+										readonly
+										placeholder="Output"
+										id="outputWeight"
+										type="number"
+										name="to-temperature"
+										min="0"
+										class="tool-input-feild readonly-background"
+									/>
+								</div>
+
+								<div class="tool-input-group">
+									<button
+										onclick="RestWeightConverter()"
+										class="tool-btn tool-btn-reset"
+									>
+										Reset
+									</button>
+									<button
+										onclick="CalculateWeight()"
+										class="tool-btn tool-btn-calculate"
+									>
+										Calculate
+									</button>
+								</div>
+							</div>
+
+							<div class="tool-container-feild">
+								<div
+									id="OutputInfo"
+									class="tool-output-information tool-output-box"
+								>
+									<h2>Basic Information</h2>
+
+									<ul>
+										<li>10 Milligrams (mg) = 1 Centigram (cg)</li>
+										<li>10 Centigrams (cg) = 1 Decigram (dg)</li>
+										<li>10 Decigrams (dmg) = 1 Gram (g or gm)</li>
+										<li>10 grams (g or gm) = 1 Decagram (dag)</li>
+										<li>10 Decagrams (dag) = 1 Hectogram (hg)</li>
+										<li>10 Hectograms (hg) = 1 Kilogram (kg)</li>
+										<li>100 Kilograms (kg) = 1 Quintal (Q)</li>
+										<!-- <li>1 Kilm) = 1 Hectameter (hm) </li> -->
+										<!-- <li>10 Decameters (dam) = 1 Hectameter (hm) </li> -->
+
+										<li>10 Quintals = 1 Metric Tonne (T)</li>
+										<!-- <li>10 Quintals = 10 Decigrams (dg)</li> -->
+										<!-- <li>1 Gram = 100 Centigrams</li> -->
+										<li>1 Gram = 1000 Milligrams</li>
+									</ul>
+								</div>
+
+								<div
+									id="OutputResult"
+									class="tool-output-results tool-output-box"
+								>
+									<h2>Result</h2>
+									<!-- <p id="WeightResult"></p> -->
+									<!-- <p><b>Formula:</b> <span id="weightFormula"></span></p> -->
+								</div>
+							</div>
+
+							<!-- <div class="tool-container-feild"></div> -->
+						</div>
+					</div>
+				</div>
+
+				xx
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-pagination"></div>
+		</div>
+
+		<!-- <div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">Slide 1</div>
+				<div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div>
+				<div class="swiper-slide">Slide 4</div>
+				<div class="swiper-slide">Slide 5</div>
+				<div class="swiper-slide">Slide 6</div>
+				<div class="swiper-slide">Slide 7</div>
+				<div class="swiper-slide">Slide 8</div>
+				<div class="swiper-slide">Slide 9</div>
+			</div>
+			
+			
+		</div> -->
+
+		<div class="tool-author-intro">
+			<p>
+				Developed By
+				<i
+					><strong
+						><a href="https://viswanath-621.github.io/About-Me/" target="_blank"
+							>Viswanath Bodapati</a
+						></strong
+					></i
+				>
+				& Powered By
+				<i
+					><strong
+						><a
+							href="https://www.linkedin.com/company/codeclause/mycompany/"
+							target="_blank"
+							>CodeClause Community ❤️</a
+						></strong
+					></i
+				>
+			</p>
+		</div>
+
+		<footer>
+			<div class="waves">
+				<div class="wave" id="wave1"></div>
+				<div class="wave" id="wave2"></div>
+				<div class="wave" id="wave3"></div>
+				<div class="wave" id="wave4"></div>
+			</div>
+			<h1>Viswanath Bodapati</h1>
+			<h2>Feel Free to Connect</h2>
+			<ul class="footer-menu">
+				<li>
+					<a href="C:\Users\Viswanath Bodapati\Desktop\CodeClause\index.html"
+						>Home</a
+					>
+				</li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services </a></li>
+				<li><a href="#">Team </a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+
+			<p>
+				@2023 CodeClause Community | Web Development Intern | All Rights
+				Reserved
+			</p>
+		</footer>
+
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper('.mySwiper', {
+				slidesPerView: 1,
+				spaceBetween: 30,
+				loop: true,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+		</script>
+		<script src="https://unpkg.com/scrollreveal"></script>
+
+		<script src="Unitscript.js"></script>
+		<script src="unitFormula.js"></script>
+		<script src="project-common-js.js"></script>
+		<script src="unit-converter-js.js"></script>
+	</body>
+</html>
