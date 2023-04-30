@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timer Example</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="timer">00:00:00</div>
+    <input id="hours" type="number" min="0" max="24" value="0"> hours
+    <input id="minutes" type="number" min="0" max="59" value="5"> minutes
+    <input id="seconds" type="number" min="0" max="59" value="0"> seconds
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+    <button onclick="resetTimer()">Reset</button>
+    <script src="timer.js"></script>
+  </body>
+</html>

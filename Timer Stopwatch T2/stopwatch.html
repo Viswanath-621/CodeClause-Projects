@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stopwatch</title>
+	<style>
+		.stopwatch {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  justify-content: center;
+		  font-size: 2rem;
+		  font-weight: bold;
+		  color: #fff;
+		  background-color: #333;
+		  border-radius: 5px;
+		  padding: 1rem;
+		}
+
+		.timer {
+		  font-size: 3rem;
+		  margin-bottom: 1rem;
+		}
+
+		.buttons {
+		  display: flex;
+		  gap: 1rem;
+		}
+
+		button {
+		  font-size: 1rem;
+		  padding: 0.5rem;
+		  border-radius: 5px;
+		  background-color: #fff;
+		  color: #333;
+		  border: none;
+		  cursor: pointer;
+		  transition: background-color 0.2s ease-in-out;
+		}
+
+		button:hover {
+		  background-color: #eee;
+		}
+	</style>
+</head>
+<body>
+	<div class="stopwatch">
+	  <div id="timer" class="timer">00:00:00</div>
+	  <div class="buttons">
+	    <button onclick="startStopwatch()">Start</button>
+	    <button onclick="stopStopwatch()">Stop</button>
+	    <button onclick="resetStopwatch()">Reset</button>
+	  </div>
+	</div>
+
+	<script>
+		let time = 0;
+		let interval;
+
+		function startStopwatch() {
+		  interval = setInterval(function() {
+		    time++;
+		    let hours = Math.floor(time / 3600);
+		    let minutes = Math.floor((time % 3600) / 60);
+		    let seconds = time % 60;
+		    document.getElementById("timer").textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+		  }, 1000);
+		}
+
+		function stopStopwatch() {
+		  clearInterval(interval);
+		}
+
+		function resetStopwatch() {
+		  time = 0;
+		  document.getElementById("timer").textContent = "00:00:00";
+		  clearInterval(interval);
+		}
+	</script>
+</body>
+</html>

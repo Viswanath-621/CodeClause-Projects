@@ -1,0 +1,29 @@
+#timer {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  }
+  input, button {
+    font-size: 20px;
+    margin: 10px;
+    background: #fff;
+    color: #a90329;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+  }
+  input:hover, button:hover {
+    background: #a90329;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+  }
+  
