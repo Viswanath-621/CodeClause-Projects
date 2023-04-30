@@ -76,7 +76,7 @@ The code editor supports syntax highlighting and auto-completion, making it easi
 This project was built using HTML, CSS, and JavaScript, and utilizes the CodeMirror library for the code editor functionality. It demonstrates proficiency in working with external libraries and APIs, as well as the ability to design and implement a complex web application. This project was completed as part of the CodeClause Community internship program, and showcases the ability to create a professional-level tool for developers.</p>
 <!-- 		<a href="[Insert project URL here]"><img src="[Insert screenshot URL here]" alt="[Insert screenshot description here]"></a>
 		<a href="[Insert project URL here]">View Project 3</a> --></section>
-		<section>
+<section>
 		<h2>Project 4:Integrate Payment Gateway</h2>
 		<p>This project involves integrating a payment gateway into a web application to allow users to make secure online payments. The payment gateway used in this project is Stripe, which provides a simple and secure way to handle online transactions.
 
