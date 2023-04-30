@@ -66,8 +66,7 @@
 		<h2>Project 2: Timer and Stopwatch</h2>
 		<p>This project involved creating a unit converter website using HTML, CSS, and JavaScript. I implemented converters for length, temperature, currency, and weight. To demonstrate my work, I recorded a screen capture of the user interface and explained the websites features.</p>
 <!-- 		<a href="[Insert project URL here]"><img src="[Insert screenshot URL here]" alt="[Insert screenshot description here]"></a>
-		<a href="[Insert project URL here]">View Project 2</a> -->
-	</section>
+		<a href="[Insert project URL here]">View Project 2</a> --></section>
 	<section>
 		<h2>Project 3: Online Code Editor</h2>
 		<p>This project is an online code editor that allows users to write, edit, and run HTML, CSS, and JavaScript code directly in their web browser. The user interface is designed to be intuitive and user-friendly, with separate panels for code editing, previewing, and console output.
@@ -76,9 +75,7 @@ The code editor supports syntax highlighting and auto-completion, making it easi
 
 This project was built using HTML, CSS, and JavaScript, and utilizes the CodeMirror library for the code editor functionality. It demonstrates proficiency in working with external libraries and APIs, as well as the ability to design and implement a complex web application. This project was completed as part of the CodeClause Community internship program, and showcases the ability to create a professional-level tool for developers.</p>
 <!-- 		<a href="[Insert project URL here]"><img src="[Insert screenshot URL here]" alt="[Insert screenshot description here]"></a>
-		<a href="[Insert project URL here]">View Project 3</a> -->
-	</section>
-	<section>
+		<a href="[Insert project URL here]">View Project 3</a> --></section><section>
 		<h2>Project 4:Integrate Payment Gateway</h2>
 		<p>This project involves integrating a payment gateway into a web application to allow users to make secure online payments. The payment gateway used in this project is Stripe, which provides a simple and secure way to handle online transactions.
 
@@ -88,8 +85,7 @@ Once the payment is processed, the user is redirected back to the web applicatio
 
 This project was completed using HTML, CSS, and JavaScript, along with the Stripe API for payment processing. It demonstrates proficiency in working with external APIs and integrating complex functionality into a web application. This project was completed as part of the CodeClause Community internship program, and showcases the ability to create a professional-level e-commerce solution.</p>
 <!-- 		<a href="[Insert project URL here]"><img src="[Insert screenshot URL here]" alt="[Insert screenshot description here]"></a>
-		<a href="[Insert project URL here]">View Project 4</a> -->
-	</section>
+		<a href="[Insert project URL here]">View Project 4</a> --></section>
 </main>
 <footer>
 	<p>&copy; 2023 CodeClause Community. All rights reserved.</p>
