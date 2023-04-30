@@ -2,7 +2,6 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>CodeClause Internship Projects</title>
 </head>
 <body>
 	<header>
