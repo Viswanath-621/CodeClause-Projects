@@ -2,6 +2,9 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	
+</head>
+<body>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
@@ -42,8 +45,6 @@
 			margin-top: 50px;
 		}
 	</style>
-</head>
-<body>
 	<header>
 		<img src="https://i.imgur.com/YwKj3q4.png" alt="CodeClause Logo">
 		<h1>CodeClause Internship Projects</h1>
