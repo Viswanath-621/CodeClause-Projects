@@ -54,7 +54,7 @@
 		<section>
 			<h2>Home Page</h2>
 			<p>The home page of my project is a beautiful parallax page that showcases my completed projects during the internship. It has a clean and modern design with a prominent banner that introduces the page's purpose. There are three project cards on the home page, and each card has a thumbnail image, a brief description of the project, and a link to view it. I used HTML, CSS, and JavaScript to create the parallax effect, and I added smooth scrolling to make it user-friendly. The home page sets the tone for the rest of the projects and provides an excellent user experience.</p>
-			<a href="https://viswanath-621.github.io/CodeClause-Projects/"><img src="https://drive.google.com/file/d/1VyknFpNAWnPBBBr7AXcyusJgd3KHo3l1/view?usp=sharing" alt="Home Page Screenshot" width ="300" height ="300"></a>
+			<img src="https://drive.google.com/file/d/1VyknFpNAWnPBBBr7AXcyusJgd3KHo3l1/view?usp=sharing" alt="Home Page Screenshot" width ="300" height ="300"></a>
 			<a href="https://viswanath-621.github.io/CodeClause-Projects/">View Home Page</a>
 		</section>
 		<section>
