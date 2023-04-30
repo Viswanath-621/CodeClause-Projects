@@ -46,7 +46,7 @@
 </head>
 <body>
 	<header>
-		<img src ="https://s3-eu-west-1.amazonaws.com/tpd/logos/6393859172dfa05d5a77adb8/0x0.png" alt="CodeClause Logo" width="500" height="600">
+		<img src ="https://s3-eu-west-1.amazonaws.com/tpd/logos/6393859172dfa05d5a77adb8/0x0.png" alt="CodeClause Logo" width="50" height="50">
 		<h1>CodeClause Internship Projects</h1>
 		<p>My completed projects during my internship with CodeClause community.</p>
 	</header>
