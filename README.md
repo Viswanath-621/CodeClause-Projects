@@ -73,7 +73,7 @@
 
 The code editor supports syntax highlighting and auto-completion, making it easier for users to write and debug their code. The preview panel allows users to see the output of their code in real-time, while the console panel displays any errors or output messages.
 
-This project was built using HTML, CSS, and JavaScript, and utilizes the CodeMirror library for the code editor functionality. It demonstrates proficiency in working with external libraries and APIs, as well as the ability to design and implement a complex web application. This project was completed as part of the CodeClause Community internship program, and showcases the ability to create a professional-level tool for developers.</p>
+This project was built using HTML, CSS, and JavaScript, and utilizes the CodeMirror library for the code editor functionality. It demonstrates proficiency in working with external libraries and APIs, as well as the ability to design and implement a complex web application. This project was completed as part of the CodeClause Community internship program, and showcases the ability to create a professional-level tool for developers .</p>
 <!-- 		<a href="[Insert project URL here]"><img src="[Insert screenshot URL here]" alt="[Insert screenshot description here]"></a>
 		<a href="[Insert project URL here]">View Project 3</a> --></section>
 <section>
